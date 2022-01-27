@@ -1,0 +1,11 @@
+/*
+    存放公用的 css 方法
+*/
+
+
+// 只展示一行文字，将多余的进行省略
+@mixin ellipsis {
+    overflow: hidden;
+    white-space: nowrap; // 不让其换行
+    text-overflow: ellipsis; // 多余字体 省略
+}
